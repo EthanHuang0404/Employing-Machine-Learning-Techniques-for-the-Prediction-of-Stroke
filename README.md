@@ -1,5 +1,3 @@
-# stroke-prediction
-
 ## Introduction
 Dizziness or vertigo is a common complaint in emergency departments. After ruling out general conditions like anemia, emergency physicians must distinguish between benign peripheral vestibular disorders and serious central nervous system issues, notably strokes. In the U.S., around 4.4 million emergency visits yearly are for dizziness or vertigo, with 34% due to benign vestibular disorders and 3-5% from strokes, particularly in the brainstem or cerebellum.
 
