@@ -22,6 +22,13 @@ The images included offer an overview of the methodologies applied in this study
 ![image](https://github.com/EthanHuang0404/stroke-prediction/assets/52795694/3ef30492-002e-46f1-9aee-765053f652fd)
 
 ### Data Preprocessing
-In this study, we process the physician's notes, which are written in English, by first standardizing the various forms of a single word back to their base form, or lemma. This is followed by removing non-letter characters such as numbers or punctuation marks, replacing them with spaces. Moreover, text data often includes frequently occurring but potentially insignificant words known as stop words, like articles, prepositions, and conjunctions. These words, while helping in sentence construction, do not contribute significantly to the content's essence. We employ a list of 421 stop words from Fox's research to filter out these extraneous words.
+**Processing of Physician's Notes (English):**
+* Standardization: Convert various forms of words back to their base form or lemma.
+* Removal of Non-letter Characters: Eliminate numbers and punctuation, replacing them with spaces.
+* Stop Words Removal: Use a list of 421 stop words from Fox's research to filter out common but insignificant words like articles, prepositions, and conjunctions.
 
-Regarding the triage nurse's notes, which are primarily in Chinese, the preprocessing step starts with converting interspersed English text and punctuation from full-width to half-width characters to facilitate accurate text segmentation. Sentence segmentation is conducted based on standard punctuation marks. The critical step of Chinese word segmentation and part-of-speech tagging is carried out using the CkipTagger tool from CKIP Lab. This step is vital for understanding the context and relevance of the words in the notes. Like in the English notes, stop words are removed, and significant words are retained based on their parts of speech, ensuring that the data retains its contextual integrity and relevance.
+**Processing of Triage Nurse's Notes (Chinese):**
+* Conversion of Characters: Change interspersed English text and punctuation from full-width to half-width characters for accurate text segmentation.
+* Sentence Segmentation: Segment text based on standard punctuation marks such as commas, periods, and semicolons.
+* Word Segmentation and POS Tagging: Utilize the CkipTagger tool from CKIP Lab for Chinese word segmentation and part-of-speech tagging.
+* Stop Words Removal and Retention of Significant Words: Similar to English notes, remove stop words and retain important words based on their parts of speech for contextually relevant data.
