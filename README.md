@@ -7,7 +7,14 @@ Differentiating strokes in such cases is challenging. Strokes causing dizziness 
 
 
 ## Dataset
+The dataset used in this research originates from a hospital in Taiwan. In constructing the predictive model, patient characteristics serving as independent variables are categorized into structured and unstructured data. Structured data encompasses critical elements such as stroke risk factors, including hypertension and diabetes, along with vital signs like blood pressure and heart rate. Unstructured data includes emergency physicians' medical records and triage notes prepared by nurses. The study's dependent variable is the diagnosis of a stroke, be it ischemic or hemorrhagic, within a 14-day period following an emergency department visit. The confirmation of stroke diagnoses is conducted either through the hospital’s stroke registry or by employing ICD codes from medical records, in accordance with established validation rules.
 
+The table below presents the distribution of data across two categories: the stroke class (labeled as '0') and the non-stroke class (labeled as '1').
+
+| Label | Training Set | Test Set |
+| :---         |     :---:      |          ---: |
+| 0 | 17,465   | 5,092   |
+| 1   | 531   | 135      |
 
 ## Method
 ![image](https://github.com/EthanHuang0404/stroke-prediction/assets/52795694/a95d3b43-372e-4f9c-b18a-89e9d2b3b97a)
