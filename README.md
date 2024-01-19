@@ -21,4 +21,6 @@ The following images provide a overview of the method in this study.
 ![image](https://github.com/EthanHuang0404/stroke-prediction/assets/52795694/3ef30492-002e-46f1-9aee-765053f652fd)
 
 ### Data Preprocessing
-For data preprocessing, 
+For the English medical recoreds text, a single word can have multiple forms, so it's essential to revert these forms back to their lemma for standardization. Following this, non-letter characters like numbers or punctuation marks are removed and replaced with spaces. Additionally, text data often contains frequently appearing words that may be insignificant or irrelevant to the content, known as stop words. These are typically articles, prepositions, and conjunctions that facilitate sentence flow without impacting the substantial content. In this study, we remove stop words using a list of 421 stop words from Fox's research, thereby filtering out superfluous words.
+
+For the Chinese medical records text, the first step involves converting English and punctuation intermingled with Chinese from full-width to half-width characters to avoid delays or errors in segmentation. Subsequently, the text undergoes sentence breaking based on punctuation marks like commas, periods, and semicolons. Next, Chinese word segmentation and part-of-speech tagging are performed using the CkipTagger package provided by the CKIP Lab (https://pypi.org/project/ckiptagger/). After segmentation, stop words are removed, and words are retained based on their parts of speech, such as nouns, verbs, and adjectives, to preserve significant terms.
