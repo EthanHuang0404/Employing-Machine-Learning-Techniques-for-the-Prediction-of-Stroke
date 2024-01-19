@@ -15,7 +15,8 @@ The table below presents the distribution of data across two categories: the str
 | 1   | 531   | 135      |
 
 ## Method
-The following images provide a overview of the method in this study.
+The images included offer an overview of the methodologies applied in this study, which incorporates two distinct approaches: a machine learning approach and a deep learning approach.
+
 ![image](https://github.com/EthanHuang0404/stroke-prediction/assets/52795694/a95d3b43-372e-4f9c-b18a-89e9d2b3b97a)
 
 ![image](https://github.com/EthanHuang0404/stroke-prediction/assets/52795694/3ef30492-002e-46f1-9aee-765053f652fd)
