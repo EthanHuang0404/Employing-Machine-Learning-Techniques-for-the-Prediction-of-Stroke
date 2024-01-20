@@ -27,11 +27,11 @@ Figure 2: Deep Learning Approach
 
 
 ### Data Preprocessing
-** Preprocessing of structual continuous data
+**Preprocessing of structual continuous data**
 * Impute null data with mean.
 * Perform z-score standerization.
 
-** Preprocessing of structual categorical data
+**Preprocessing of structual categorical data**
 * Impute null data with mode.
 * Perform one-hot encoding.
 
