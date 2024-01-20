@@ -45,3 +45,7 @@ Figure 2: Deep Learning Approach
 * Sentence Segmentation: Segment text based on standard punctuation marks such as commas, periods, and semicolons.
 * Word Segmentation and POS Tagging: Utilize the CkipTagger tool from CKIP Lab for Chinese word segmentation and part-of-speech tagging.
 * Stop Words Removal and Retention of Significant Words: Similar to English notes, remove stop words and retain important words based on their parts of speech for contextually relevant data.
+
+
+# Result
+The optimal outcome is attained by leveraging structured data in conjunction with bigram features (PI) as input and constructing the model using XGBoost. This results in an impressive AUC score of 0.904 on the test dataset. For a comprehensive overview of the results, please refer to the 'result' folder.
