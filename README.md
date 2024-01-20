@@ -35,12 +35,12 @@ Figure 2: Deep Learning Approach
 * Impute null data with mode.
 * Perform one-hot encoding.
 
-** Preprocessing of Physician's Notes (English):**
+**Preprocessing of Physician's Notes (English):**
 * Standardization: Convert various forms of words back to their base form or lemma.
 * Removal of Non-letter Characters: Eliminate numbers and punctuation, replacing them with spaces.
 * Stop Words Removal: Use a list of 421 stop words from Fox's research to filter out common but insignificant words like articles, prepositions, and conjunctions.
 
-** Preprocessing of Triage Nurse's Notes (Chinese):**
+**Preprocessing of Triage Nurse's Notes (Chinese):**
 * Conversion of Characters: Change interspersed English text and punctuation from full-width to half-width characters for accurate text segmentation.
 * Sentence Segmentation: Segment text based on standard punctuation marks such as commas, periods, and semicolons.
 * Word Segmentation and POS Tagging: Utilize the CkipTagger tool from CKIP Lab for Chinese word segmentation and part-of-speech tagging.
